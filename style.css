@@ -1,0 +1,30 @@
+/*
+Theme Name: CLM
+Theme URI: http://christopherleemiller.me/
+Author: Christopher Miller
+Author URI: http://christopherleemiller.me/
+Description: Custom theme for CLM.me site
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CLM
+Tags: custom-header, featured-images
+*/
+
+/* Import site critical first */
+@import 'css/critical.css';
+
+/* Global imports */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Special+Elite|Permanent+Marker');
+@import 'css/wp_core.css';
+@import 'css/normalize.css';
+@import 'css/animate.css';
+@import 'css/font-awesome.min.css';
+@import 'css/font-awesome-animation.min.css';
+
+/* Site specific */
+@import 'css/navigation-sidebar.css';
+@import 'css/footer.css';
+@import 'css/main.css';
+@import 'css/gallery.css';
+
